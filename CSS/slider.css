@@ -1,0 +1,138 @@
+/*Slider*/
+
+body{
+    background: linear-gradient(to bottom,#041447,#0A3E10);
+}
+
+.btn-return{
+    background: #8488F6;
+    color: #fff;
+    font-family: 'Minecraft';
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-return:hover{
+    background-color: #3A41FF;
+    box-shadow: #3A41FF 0px .2rem 1.5rem;
+}
+
+.btn-return a{
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+}
+
+.btn-return a:hover{
+    color: #fff;
+}
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5eff8e, #7d66ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5eff8e, #7d66ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+  }
+
+  .slider a{
+    background: transparent;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .slider #btn-play{
+    display: flex;
+    justify-content: center;
+    margin-left: 8.3rem;
+    background: #57C26D;
+    color: #fff;
+    font-family: 'Minecraft';
+    text-decoration: none;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    border: none;
+ }
+
+  .slider #btn-play:hover{
+    background-color: #1AFE49;
+    color: #fff;
+    box-shadow: #1AFE49 0px .2rem 1.5rem;
+  }
+
+  .slider-card {
+    background: #1a123d;
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+
+  .slider-card img {
+    border-radius: 5px 5px 0px 0px;
+  }
+  .owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+    color: #3E44B6 !important;
+  }
+  .owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+    color: #3E44B6 !important;
+  }
+  .owl-dots {
+    text-align: center;
+  }
+  .owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+  }
+  .owl-dots .owl-dot.active {
+    background: #7f36f4 !important;
+  }
+
+  #title{
+    font-family: 'Vermin';
+  }
+
+  .slider-card p{
+    font-family: 'Minecraft';
+  }
+
+  @font-face{
+    font-family: 'Vermin';
+    src: url(/Fonts/VerminVibesV-Zlg3.ttf);
+}
+
+  #title-heading{
+    font-family: 'Vermin';
+    color: #fff !important; 
+    text-shadow: #fff 0px 2px 4px !important; 
+  }
+
+/*Slider end*/

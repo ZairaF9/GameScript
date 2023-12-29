@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+html {
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(#041447 0%,#0A3E10 100%);
+    scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: 'Vermin';
+    src: url(/Fonts/VerminVibesV-Zlg3.ttf);
+}
+
+@font-face{
+    font-family:'Minecraft';
+    src: url(/Fonts/Minecraft.ttf);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.title {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 700;
+    font-family: 'Vermin';
+}
+
+#color2{
+    color: #1AFE49;
+    font-family: 'Minecraft';
+    font-size: 3.5rem;
+}
+
+.main a{
+    background-color: #8488F6;
+    border: none;
+    border-radius: 4rem;
+    color: #fff;
+    padding: 1rem 2.8rem;
+    font-family: 'Minecraft';
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.main a:hover{
+    background-color: #3A41FF;
+    box-shadow: #3A41FF 0px .2rem 1.5rem;
+}
+
+
