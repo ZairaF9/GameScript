@@ -1,0 +1,38 @@
+[
+    {
+        "image": "../cards/Carta1.png",
+        "name": "baby"
+    },
+    {
+        "image": "../cards/Carta2.png",
+        "name": "navidad"
+    },
+    {
+        "image": "../cards/Carta3.png",
+        "name": "catrina"
+    },
+    {
+        "image": "../cards/Carta4.png",
+        "name": "silence"
+    },
+    {
+        "image": "../cards/Carta5.png",
+        "name": "princesa"
+    },
+    {
+        "image": "../cards/Carta6.png",
+        "name": "enfermera"
+    },
+    {
+        "image": "../cards/Carta7.png",
+        "name": "gang"
+    },
+    {
+        "image": "../cards/Carta8.png",
+        "name": "angel"
+    },
+    {
+        "image": "../cards/Carta9.png",
+        "name": "retrato"
+    }
+]
